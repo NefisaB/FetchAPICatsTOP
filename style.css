@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: #DFDBE5;
+background-color: #e8e2f1;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23955eec' fill-opacity='0.54'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+main {
+    box-sizing: border-box;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+button{
+    width: 200px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.25rem;
+}
+
+img {
+    width: 500px;
+    height: 800px;
+    border-radius: 15px;
+    border: solid 3px blueviolet;
+}
